@@ -4,6 +4,7 @@ from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import relationship, sessionmaker
 from sqlalchemy.exc import SQLAlchemyError  # Importa exceções do SQLAlchemy
 
+#Herdar tudo de ORM do SQLAlchemy, "de - para do python para o banco"
 Base = declarative_base()
 
 #criando uma tabela de fornecedores
